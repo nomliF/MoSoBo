@@ -25,6 +25,7 @@ function BookItem() {
                 <Link to="/contact"> FavoriteD </Link>
                 <Link to="/contact"> FavoriteQ </Link>
                 <Link to="/contact"> FavoriteA </Link>
+                <Link to="/contact">Wish List</Link>
             </div>
         </div>
     );
