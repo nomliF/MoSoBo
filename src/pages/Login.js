@@ -11,6 +11,7 @@ function Login() {
         <label htmlFor="password">Password</label>
         <input name="password" placeholder="Enter password..." type="password" />
         <button type="submit">Login</button>
+        <button type="submit">Create Account</button>
       </form>
     </div>
   );

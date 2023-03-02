@@ -45,7 +45,7 @@
     border-radius: 5px;
     cursor: pointer;
     justify-content: center;
-    background-color: #121619;
+    background-color: #1584d9;
     height: 50px;
     width: 180px;
     color: white;
@@ -54,7 +54,7 @@
   }
   
   .headerContainer button:hover {
-    background-color: #07090a;
+    background-color: #07525b;
     cursor: pointer;
     transition: 0.3s ease-in;
   }

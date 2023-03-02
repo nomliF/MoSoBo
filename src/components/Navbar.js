@@ -8,6 +8,7 @@ function Navbar() {
             <div className="leftSide">
                 <img src={Logo} alt={Logo}/>
                 <div className="hiddenLinks">
+                    
                     <Link to="/"> Home </Link>                   
                     <Link to="/about"> About </Link>
                     <Link to="/contact"> Contact </Link>

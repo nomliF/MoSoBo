@@ -2,6 +2,8 @@ import React from "react";
 import { BookList } from "../helpers/BookList";
 import BookItem from "../components/BookItem";
 import "../styles/Book.css";
+import { Link } from "react-router-dom";
+
 
 function Book() {
   return (
@@ -17,6 +19,9 @@ function Book() {
             />
           );
         })}
+        <Link to="/bookitem">
+          <button> BookItem </button>
+        </Link>
       </div>
     </div>
   );

@@ -2,14 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    background-color: rgb(151, 204, 204);
+
   }
   
   .login h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
   }
-  
+  .login button{
+    background-color: rgb(17, 155, 229);
+    border-radius:10px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
   .login form {
     display: flex;
     flex-direction: column;
@@ -17,8 +26,10 @@
     max-width: 400px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(84, 149, 209, 0.1);
     background-color: #fff;
+    margin-bottom: 50px;
+    
   }
   
   .login label {
