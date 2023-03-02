@@ -6,8 +6,9 @@ import Book from "./pages/Book"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-
+import CreateAccount from "./pages/CreateAccount";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" exact component={Contact} />
           <Route path="/login" exact component={Login} />
           <Route path="/book" exact component={Book} />
+          <Route path="/createAccount" exact component={CreateAccount}/>
           
         </Switch>
         <Footer />
