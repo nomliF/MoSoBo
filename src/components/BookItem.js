@@ -9,23 +9,22 @@ function BookItem() {
             <div className="leftSide">
                 {/*<img src={Logo} alt={Logo}/>
 */}                <div className="hiddenLinks">
-                    <Link to="/contact"> Preview </Link>
                     <Link to="/about"> Review </Link>
                     <Link to="/about"> Summary </Link>                  
                     <Link to="/contact"> FavoriteD </Link>
                     <Link to="/contact"> FavoriteQ </Link>
                     <Link to="/contact"> FavoriteA </Link>
-
                 </div>
             </div>
             <div className="rightSide">
+            <button><Link to="/contact"> Preview </Link></button>
+
                 <Link to="/about"> Preview </Link>         
                 <Link to="/about"> Review </Link>
                 <Link to="/about"> Summary </Link>
                 <Link to="/contact"> FavoriteD </Link>
                 <Link to="/contact"> FavoriteQ </Link>
-                <Link to="/contact"> FavoriteA </Link>
-               
+                <Link to="/contact"> FavoriteA </Link>               
             </div>
         </div>
     );
