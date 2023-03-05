@@ -27,11 +27,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.rightSide {
-  flex: 1;
-  padding: 2rem;
-}
-
 .rightSide h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
