@@ -13,11 +13,12 @@ function Login() {
         <label htmlFor="password">Password</label>
         <input name="password" placeholder="Enter password..." type="password" />
         <button type="submit">Login</button>
-      </form>
-      <Link to="/createAccount">
+        <Link to="/createAccount">
           <button> Create Account </button>
         </Link>
 
+      </form>
+      
     </div>
   );
 }
