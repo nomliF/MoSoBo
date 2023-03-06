@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import CreateAccount from "./pages/CreateAccount";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import BookJourney from "./components/BookJourney";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path="/login" exact component={Login} />
           <Route path="/book" exact component={Book} />
           <Route path="/createAccount" exact component={CreateAccount}/>
-          
+          <Route path="/bookjourney" exact component={BookJourney}/>
         </Switch>
         <Footer />
       </Router>
