@@ -1,0 +1,52 @@
+.book-journey-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .journeys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .journey {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+  }
+  
+  .journey h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .favorites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorite {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+  }
+  
+  .favorite h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .favorite p {
+    margin-bottom: 5px;
+  }
+  
+  .favorite p strong {
+    margin-right: 5px;
+  }
+  
