@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "../styles/BookJourney.css"
@@ -32,7 +28,6 @@ const BookJourney = ({ bookId }) => {
   return (
     <div className="book-journey">
       <h1>{book.title}</h1>
-      <img src={book.coverImage} alt={book.title} />
       <div className="journey-form">
         <h2>My Journey</h2>
        

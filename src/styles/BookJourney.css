@@ -11,10 +11,6 @@
     margin-top: 0;
   }
   
-  .book-journey img {
-    max-width: 200px;
-    margin-bottom: 20px;
-  }
   
   .journey-form {
     display: flex;
@@ -29,6 +25,7 @@
     margin-bottom: 10px;
     flex-basis: 100%;
     text-align: center;
+    margin-bottom:0 ;
   }
   
   .journey-form label {
@@ -56,75 +53,12 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
-  }
-  
+    margin-top: 10px;
+  }  
   .journey-form button:hover {
     background-color: #3e8e41;
   }
 
-
-
-
-  .book-journey-update {
-    max-width: 600px;
-    margin: auto;
-  }
-  
-  .book-journey-update h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .book-journey-update img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 300px;
-    height: auto;
-  }
-  
-  .book-journey-update .journey-form {
-    margin-top: 2rem;
-  }
-  
-  .book-journey-update .journey-form h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .book-journey-update .journey-form label {
-    display: block;
-    margin-top: 1rem;
-  }
-  
-  .book-journey-update .journey-form textarea {
-    display: block;
-    width: 100%;
-    height: 6rem;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  
-  .book-journey-update .journey-form button {
-    display: block;
-    margin-top: 1rem;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .book-journey-update .journey-form button:hover {
-    background-color: #006F8B;
-  }
   .journey-form label {
     display: block;
     margin-top: 1rem;
