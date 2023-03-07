@@ -1,6 +1,7 @@
 //import Logo from "../assets/logo2.svg";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import React from 'react';
 
 
 function BookItem() {
