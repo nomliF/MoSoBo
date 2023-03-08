@@ -9,7 +9,7 @@ import Contact from "./pages/Contact"
 import Login from "./pages/Login"
 import CreateAccount from "./pages/CreateAccount"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Books from "./components/Books";
+import Books from "./components/Books"
 
 
 

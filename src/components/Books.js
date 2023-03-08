@@ -1,40 +1,45 @@
-import { Component } from "react";
+import React, { useState } from "react";
 import request from "superagent";
-import React from 'react';
 
-class Books extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      books: [],
-      searchField: "",
-    };
-  }
+function Books() {
+  const [searchField, setSearchField] = useState("");
+  const [books, setBooks] = useState([]);
 
-  searchBook = (e) => {
+  const searchBook = (e) => {
     e.preventDefault();
     request
       .get("https://www.googleapis.com/books/v1/volumes")
-      .query({ q: this.state.searchField })
+      .query({ q: searchField })
       .then((data) => {
-        console.log(data);
+        setBooks(data.body.items);
       });
   };
 
-  handleSearch = (e) => {
-    this.setState({ searchField: e.target.value });
+  const handleSearch = (e) => {
+    setSearchField(e.target.value);
   };
 
-  render() {
-    return (
-      <div>
-        <searchField
-          searchBook={this.searchBook}
-          handleSearch={this.handleSearch}
-        />
+  return (
+    <div className="Books">
+      <div className="BooksTop">
+        <form onSubmit={searchBook}>
+          <input type="text" onChange={handleSearch} />
+          <button type="submit">Search</button>
+        </form>
       </div>
-    );
-  }
+      <div className="BooksBottom">
+      
+      
+        {books.map((book) => (
+          <div key={book.id}>
+            <h2>{book.volumeInfo.title}</h2>
+            <p>{book.volumeInfo.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default Books;
+
